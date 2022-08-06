@@ -18,7 +18,7 @@ If you want to restore the game to its original state or generate a new seed, cl
 Most of the base game rules are left intact, but aside from the fact that items are randomized, the following additional changes should be noted:
 * You must complete all three major quests (save Barnard, save Elsa, and banish Baba Yaga) to complete the game. But you are now able to complete them in any order.
   - So, for example, you don't auto-win for leaving Elsa's office without grabbing the mirror (which might not be on her desk!), nor do you auto-win after frogging Baba Yaga. Unless you've already completed the other quests, that is.
-* You must play as a Thief with the ability to cast spells. Otherwise, you won't be able to access every item location, and thus you won't be able to complete every seed.
+* You must have points in both Pick Locks and Magic. Otherwise, you won't be able to access every item location, and thus you won't be able to complete every seed.
 * You start the game with no money and no items except for Leather Armor. The Dagger, Lock Pick, and 5 Food Rations are part of the randomized item pool.
   - Starvation is disabled, so you don't need to worry about eating food.
 * Shops are also part of the randomization pool, and the prices are randomized. You can "ask about shop" to see what's for sale. Each item can only be purchased once.
