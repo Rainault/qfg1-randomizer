@@ -93,6 +93,15 @@ When exiting the cave, wait at the cave entrance for a moment, then loop around 
 ## I found the Dagger, but I can't seem to make additional progress. Do I really have to grind combat?
 Probably, but it's not as bad as it sounds. Pick up about 1070 rocks ("get rock" 107 times) to overflow your encumbrance. This will make you very difficult to hit in combat. Then go to the goblin ambush and "fight bush". Dodge repeatedly until you're out of stamina, then escape. Rest, exit, return, and "fight bush" again. Repeat, sleeping at Erana's Peace if necessary. This will get your stats high enough that you should be able to survive difficult fights. Then you just need to grind Weapon Use until you can actually hit the harder monsters.
 
+## Help! I need more money!
+Don't forget you can sell Mushrooms to the Healer. If you have the Toadstools, you can drop all of them on the ground and pick them back up again, and the game will forget that they were Toadstools.
+
+Once you have the Thief Guild License, you can sell the Alabaster Vase, Music Box, Silver Candlesticks, Candelabra, and String of Pearls to Boris. (You can also sell the Glowing Gem and Gold Ring, but I'd advise against that.)
+
+If you have the Dagger, you can grind brigands or trolls east of Fred's cave.
+
+Barring all that, you can work at the stables for 5 Silver, sleep at the barracks to make it night, then climb back over the wall and sleep at the stables to repeat the loop. Ideally, you won't have to do this too much. If you do, it's probably a bug I need to fix!
+
 ## What's the deal with "Flask of Miller Lite"?
 The game text will describe the two Flasks of Water differently so you know which one you just received, since they're both still called "Flask of Water" in your inventory. "Flask of Miller Lite" indicates that the water came from Mirror Lake, known as Lake Miller in the QFG speedrunning community. It was named after the current world record holder for QFG1EGA any%, misterprmiller.
 
