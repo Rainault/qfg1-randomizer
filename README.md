@@ -3,6 +3,9 @@ This program will randomize the location of most items in Quest for Glory 1 EGA.
 
 Only the EGA version is currently supported. (Sorry, VGA fans!) Also, you must be running v1.2 of QFG1EGA. This is the version that you should have if you bought the game on Steam or GOG. Notably, this randomizer will not work on v1.0 (the one called "Hero's Quest").
 
+# Antivirus/Malware Note
+I've received reports that some antivirus/malware programs are reporting the randomizer application as a trojan. (I guess modding a game by dumping a bunch of extra files into a folder does look suspiciously like a trojan.) I am currently working on resolving this problem in a more permanent fashion, but you may need to tell your antivirus/malware program to allow the randomizer to run. Sorry for the inconvenience!
+
 # Instructions
 Windows is the only supported OS at the moment.
 
@@ -21,6 +24,7 @@ Most of the base game rules are left intact, but aside from the fact that items 
 * You must have points in both Pick Locks and Magic. Otherwise, you won't be able to access every item location, and thus you won't be able to complete every seed.
 * You start the game with no money and no items except for Leather Armor. The Dagger, Lock Pick, and 5 Food Rations are part of the randomized item pool.
   - Starvation is disabled, so you don't need to worry about eating food.
+* Press Ctrl-K or choose "Loc Check" under "Information" in the menu to view the status of every randomized item location and the status of the three major quests. Unchecked locations are highlighted in blue, and incomplete quests are highlighted in red. Checked locations and completed quests are grayed out.
 * Shops are also part of the randomization pool, and the prices are randomized. You can "ask about shop" to see what's for sale. Each item can only be purchased once.
 * Boris no longer sells the Thief Guild License. The License is part of the randomized item pool.
 * Baba Yaga will now give you a randomized item reward for giving her the Mandrake Root.
@@ -28,7 +32,6 @@ Most of the base game rules are left intact, but aside from the fact that items 
 * Randomized items that were repeatable in the original game are now one-shot. For example, once you "get mushroom" at the mushroom ring, you can't "get mushroom" again.
 * The two Large Brass Key items have been split into separate items. The Kobold's key is called "Glowing Key", and the key to Fred's cave is called "Worn Key".
 * You no longer auto-lose for attempting to re-enter the brigand fortress after saving Elsa. This allows you to battle Toro even after you've completed the Elsa quest, or grab items from her desk if you forgot.
-* Press Ctrl-K or choose "Loc Check" under "Information" in the menu to view the status of every randomized item location and the status of the three major quests. Unchecked locations are highlighted in blue, and incomplete quests are highlighted in red. Checked locations and completed quests are grayed out.
 
 # Clarifications
 These rules aren't any different from the base game, but they deserve clarification in the context of a randomizer.
@@ -91,7 +94,9 @@ To enter the cave, move to the top of the screen as soon as you enter and wait u
 When exiting the cave, wait at the cave entrance for a moment, then loop around the same way you came in.
 
 ## I found the Dagger, but I can't seem to make additional progress. Do I really have to grind combat?
-Probably, but it's not as bad as it sounds. Pick up about 1070 rocks ("get rock" 107 times) to overflow your encumbrance. This will make you very difficult to hit in combat. Then go to the goblin ambush and "fight bush". Dodge repeatedly until you're out of stamina, then escape. Rest, exit, return, and "fight bush" again. Repeat, sleeping at Erana's Peace if necessary. This will get your stats high enough that you should be able to survive difficult fights. Then you just need to grind Weapon Use until you can actually hit the harder monsters.
+Probably, but it's not as bad as it sounds. Pick up about 1070 rocks ("get rock" 107 times) to overflow your encumbrance. Make sure you can still move around without being encumbered -- if you still move slowly, you need to pick up more rocks.
+
+Overflowing your encumbrance will make you very difficult (but not impossible) to hit in combat. You'll still need to grind your stats high enough to actually defeat any monsters, but this should make it a lot more feasible.
 
 ## Help! I need more money!
 Don't forget you can sell Mushrooms to the Healer. If you have the Toadstools, you can drop all of them on the ground and pick them back up again, and the game will forget that they were Toadstools.
