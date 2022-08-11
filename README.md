@@ -11,9 +11,13 @@ Windows is the only supported OS at the moment.
 
 Head to https://github.com/Rainault/qfg1-randomizer/releases and download the latest version. Extract the .exe file into your QFG1EGA game folder and run the program from there.
 
-You can provide your own seed if you want (e.g. you're racing against one or more other people, and you all want to be on the same seed), or you can leave the seed empty to have the program generate one for you. Click Patch to generate the patch files.
+There are several customization options to choose from to tailor your randomization experience; the tooltips should explain what each one does.
 
-That's it! You're ready to go on your randomized adventure in Spielburg. If you want to spoil yourself on where everything was randomized to, you can look at the spoiler.txt file.
+You will also need to assign a class to your hero now, as well as decide which skills you want your hero to have. This allows the randomizer logic to take into account which locations you can access using your skills. For more randomizer fun, you can also choose the Random class. In addition to randomizing your initial attribute values, it will also randomly select which of the six skills (Parry, Stealth, Pick Locks, Throwing, Climbing, Magic) your hero will have access to. You can guarantee access to any of those skills if you prefer.
+
+If you are trying to recreate a certain seed (e.g. you're racing against one or more other people), you can copy the seed/flags string, which should look something like this: "2504080195:SHPLr". Pasting this into the randomizer will also recreate the selected customization options, since they are necessary to ensure that the randomizer produces the exact same results.
+
+Once you're ready, click Patch to generate the patch files. Now you're ready to go on your randomized adventure in Spielburg. If you want to spoil yourself on where everything was randomized to, you can look at the spoiler.txt file.
 
 If you want to restore the game to its original state or generate a new seed, click Unpatch. This will delete the patch files and the spoiler log. You can also do this manually yourself, if you'd prefer -- just delete all SCRIPT.* and TEXT.* files in the game folder.
 
@@ -21,10 +25,9 @@ If you want to restore the game to its original state or generate a new seed, cl
 Most of the base game rules are left intact, but aside from the fact that items are randomized, the following additional changes should be noted:
 * You must complete all three major quests (save Barnard, save Elsa, and banish Baba Yaga) to complete the game. But you are now able to complete them in any order.
   - So, for example, you don't auto-win for leaving Elsa's office without grabbing the mirror (which might not be on her desk!), nor do you auto-win after frogging Baba Yaga. Unless you've already completed the other quests, that is.
-* You must have points in both Pick Locks and Magic. Otherwise, you won't be able to access every item location, and thus you won't be able to complete every seed.
-* You start the game with no money and no items except for Leather Armor. The Dagger, Lock Pick, and 5 Food Rations are part of the randomized item pool.
+* You start the game with no money and no items except for Leather Armor. If "survival mode" is ON, you also start without your weapon. Fighters get to keep their Shield.
   - Starvation is disabled, so you don't need to worry about eating food.
-* Press Ctrl-K or choose "Loc Check" under "Information" in the menu to view the status of every randomized item location and the status of the three major quests. Unchecked locations are highlighted in blue, and incomplete quests are highlighted in red. Checked locations and completed quests are grayed out.
+* Press Ctrl-K or choose "Loc Check" under "Information" in the menu to view the status of every randomized item location and the status of the three major quests. Checked locations and completed quests are grayed out.
 * Shops are also part of the randomization pool, and the prices are randomized. You can "ask about shop" to see what's for sale. Each item can only be purchased once.
 * Boris no longer sells the Thief Guild License. The License is part of the randomized item pool.
 * Baba Yaga will now give you a randomized item reward for giving her the Mandrake Root.
@@ -38,7 +41,7 @@ These rules aren't any different from the base game, but they deserve clarificat
 * With the exception of shops, the command to get a randomized item is the same as in the original game, regardless of what is actually at that location. For example, you should type "get mushroom" at the mushroom ring, even if it doesn't actually give you mushrooms.
 * The Flying Falls, Lake Miller (a.k.a. Mirror Lake), and Fairy Dance locations still require an empty flask, even if the dropped item doesn't go into a flask.
   - The Flask of Water and Flask of Fairy Dust items do not require an empty flask at the location where you find them. They will already be in a flask and added to your inventory.
-* Beware of combat before you find your Dagger. The game will auto-kill you if you enter combat without a weapon, even if you have some other means of fighting.
+* If a hero without Magic finds or purchases a spell scroll, only a Piece of Paper will enter their inventory. They will not learn the spell.
 * The Healer still sells Healing/Vigor/Mana Potions at the normal prices. The Undead Unguent slot is randomized, however.
 * The Healer accepts the same components and gives the same compensation for them as the base game.
 * You still need a Thief Guild License to deal with Boris, including asking him what he is selling.
@@ -83,15 +86,29 @@ These rules aren't any different from the base game, but they deserve clarificat
 ## I need to make time pass by. What's the fastest way to do so?
 Go to the tavern, walk up to Crusher, and "ask about guild". This will advance time forward by one step (and may kill you if you only have a couple HP left).
 
-If you specifically want it to become night, go to the barracks in the castle (west from the courtyard) and "sleep".
+If you specifically want it to become night, go to the barracks in the castle (west from the courtyard) and "sleep". Note that this won't work if "sunset approaches".
 
 ## I have all the Dispel Potion ingredients, but the Healer won't accept all of them.
 You still need to give the Spirea Seed to the Dryad to learn the Dispel Potion formula.
 
-## How do I enter/exit the Bear Cave if I don't have a Dagger or the Calm spell?
-To enter the cave, move to the top of the screen as soon as you enter and wait until the Ogre is close to reaching you. Then loop around the bottom of the screen to get around. Watch this video to see it in action: https://www.youtube.com/watch?v=MWFNCZw58j8&t=75s
+## How do I juke the Ogre?
+When you enter the Ogre room, move to the top of the screen and wait until the Ogre is close to reaching you. Then loop around the bottom of the screen to get around. Watch this video to see it in action: https://www.youtube.com/watch?v=MWFNCZw58j8&t=75s
 
 When exiting the cave, wait at the cave entrance for a moment, then loop around the same way you came in.
+
+## How do I kill the Kobold using Flame Dart when I don't know Dazzle?
+You gotta be fast. It helps to slow down the speed a bit. Each Flame Dart has to come out as soon as you regain input after casting the previous one. If you're too slow, the Kobold will cast Reversal, and your Flame Darts will become useless.
+
+## How do I get the Kobold's mushrooms and chest while the Kobold is alert?
+Dazzle is the easiest way to do this, but otherwise, you gotta be fast and a bit lucky. Healing potions help. If you keep dying, try grinding your max HP up so you can survive a couple bolts.
+
+## How do I get the Mandrake Root without Undead Unguent?
+Enter the graveyard from the north, "get root" as soon as you are in the graveyard, then run due south. You can also backtrack north, but the movement is a bit trickier and harder to manage before the ghosts get you.
+
+## How do I avoid Toro without sneaking?
+If you know the Open spell, cast it while hiding in the bushes. Then wait until Toro is about at the midpoint of the screen, and make a beeline for the gate. You should have barely enough time to "open" the gate and get inside before Toro notices you.
+
+If you don't know Open, you'll have to reach the spot behind the boulder on the top-right of the screen to climb up the gate. The timing for this is *very* tight, so you'll probably need to practice this a bunch.
 
 ## I found the Dagger, but I can't seem to make additional progress. Do I really have to grind combat?
 Probably, but it's not as bad as it sounds. Pick up about 1070 rocks ("get rock" 107 times) to overflow your encumbrance. Make sure you can still move around without being encumbered -- if you still move slowly, you need to pick up more rocks.
@@ -105,7 +122,7 @@ Once you have the Thief Guild License, you can sell the Alabaster Vase, Music Bo
 
 If you have the Dagger, you can grind brigands or trolls east of Fred's cave.
 
-Barring all that, you can work at the stables for 5 Silver, sleep at the barracks to make it night, then climb back over the wall and sleep at the stables to repeat the loop. Ideally, you won't have to do this too much. If you do, it's probably a bug I need to fix!
+Barring all that, you can work at the stables for 5 Silver. It's a slow grind, but you shouldn't be required to do it unless you squandered your money, you turned off the "fair shop prices" option, or there's a bug that I need to fix.
 
 ## What's the deal with "Flask of Miller Lite"?
 The game text will describe the two Flasks of Water differently so you know which one you just received, since they're both still called "Flask of Water" in your inventory. "Flask of Miller Lite" indicates that the water came from Mirror Lake, known as Lake Miller in the QFG speedrunning community. It was named after the current world record holder for QFG1EGA any%, misterprmiller.
