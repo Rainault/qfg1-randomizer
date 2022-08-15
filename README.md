@@ -13,7 +13,7 @@ Head to https://github.com/Rainault/qfg1-randomizer/releases and download the la
 
 There are several customization options to choose from to tailor your randomization experience; the tooltips should explain what each one does.
 
-You will also need to assign a class to your hero now, as well as decide which skills you want your hero to have. This allows the randomizer logic to take into account which locations you can access using your skills. For more randomizer fun, you can also choose the Random class. In addition to randomizing your initial attribute values, it will also randomly select which of the six skills (Parry, Stealth, Pick Locks, Throwing, Climbing, Magic) your hero will have access to. You can guarantee access to any of those skills if you prefer.
+You will also need to assign a class to your hero now, as well as decide which skills you want your hero to have. This allows the randomizer logic to take into account which locations you can access using your skills. For more randomizer fun, you can also choose to be Classless. In addition to randomizing your initial attribute values, it will also randomly select which of the six skills (Parry, Stealth, Pick Locks, Throwing, Climbing, Magic) your hero will have access to. You can guarantee access to any of those skills if you prefer.
 
 If you are trying to recreate a certain seed (e.g. you're racing against one or more other people), you can copy the seed/flags string, which should look something like this: "2504080195:SHPLr". Pasting this into the randomizer will also recreate the selected customization options, since they are necessary to ensure that the randomizer produces the exact same results.
 
