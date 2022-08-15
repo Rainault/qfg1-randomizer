@@ -56,6 +56,7 @@ These rules aren't any different from the base game, but they deserve clarificat
 * Mushroom ring (2x)
 * Spirea plants
 * Erana's Peace (2x)
+  * Erana's stone excluded for heroes without Magic
 * Flying Falls
 * Lake Miller
 * Healer's reward
@@ -63,7 +64,9 @@ These rules aren't any different from the base game, but they deserve clarificat
 * Dryad's reward
 * Graveyard
 * Old lady's house (5x)
+  * Excluded for heroes without Pick Locks
 * Sheriff's house (5x)
+  * Excluded for heroes without Pick Locks
 * Ogre chest
 * Kobold cave (3x)
 * Baron's reward
@@ -76,11 +79,13 @@ These rules aren't any different from the base game, but they deserve clarificat
 * Cheetaur's claws
 * Troll's beard
 * Beating Erasmus at Mage's Maze
+  * Excluded for heroes without Magic
 * Zara's magic shop (3x)
 * Dry goods store (4x)
 * Hilde's stall (2x)
 * Healer's shop (1x)
 * Thieves' Guild (2x)
+  * Excluded for heroes without Stealth and Pick Locks
 
 # FAQ
 ## I need to make time pass by. What's the fastest way to do so?
