@@ -89,9 +89,13 @@ These rules aren't any different from the base game, but they deserve clarificat
 
 # FAQ
 ## I need to make time pass by. What's the fastest way to do so?
-Go to the tavern, walk up to Crusher, and "ask about guild". This will advance time forward by one step (and may kill you if you only have a couple HP left).
+If you specifically want it to become night, go to the barracks in the castle (west from the courtyard) and "sleep". Note that this won't work if it's already sunset.
 
-If you specifically want it to become night, go to the barracks in the castle (west from the courtyard) and "sleep". Note that this won't work if "sunset approaches".
+Otherwise, you can go to the tavern, walk up to Crusher, and "ask about guild". This will advance time forward by one step (and may kill you if you only have a couple HP left).
+
+Note that if you don't have the Climbing skill, you won't be able to enter or exit town during the night. If you're stuck in town, you'll need to sleep at the inn to make it dawn. If it's already midnight, your choices are sleeping on the ground (and losing all your money), or bothering Crusher to make it "not yet dawn" and waiting until dawn.
+
+If you need to kill time at night outside of town (e.g. waiting until midnight to access the Graveyard location), you'll need to find an activity that depletes your stamina so you can rest. Combat is the best option, but if you can't enter combat, you could also try picking the lock on the Healer's hut or climbing the tree.
 
 ## I have all the Dispel Potion ingredients, but the Healer won't accept all of them.
 You still need to give the Spirea Seed to the Dryad to learn the Dispel Potion formula.
