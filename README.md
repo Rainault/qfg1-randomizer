@@ -3,6 +3,8 @@ This program will randomize the location of most items in Quest for Glory 1 EGA.
 
 Only the EGA version is currently supported. (Sorry, VGA fans!) Also, you must be running v1.2 of QFG1EGA. This is the version that you should have if you bought the game on Steam or GOG. Notably, this randomizer will not work on v1.0 (the one called "Hero's Quest").
 
+If you have questions, find a bug, or just want to chat with a bunch of fellow QFG nerds, join the [QFG Speedrunners Discord](https://discord.gg/ybXNsKJd). We'd love to have you!
+
 # Antivirus/Malware Note
 I've received reports that some antivirus/malware programs are reporting the randomizer application as a trojan. (I guess modding a game by dumping a bunch of extra files into a folder does look suspiciously like a trojan.) I am currently working on resolving this problem in a more permanent fashion, but you may need to tell your antivirus/malware program to allow the randomizer to run. Sorry for the inconvenience!
 
@@ -137,4 +139,4 @@ Barring all that, you can work at the stables for 5 Silver. It's a slow grind, b
 The game text will describe the two Flasks of Water differently so you know which one you just received, since they're both still called "Flask of Water" in your inventory. "Flask of Miller Lite" indicates that the water came from Mirror Lake, known as Lake Miller in the QFG speedrunning community. It was named after the current world record holder for QFG1EGA any%, misterprmiller.
 
 ## I have another question, or I found a bug or have a feature request!
-Feel free to create an issue here, or hop onto the QFG Speedrunners Discord (https://discord.gg/ybXNsKJd) and post your question there. We're all a bunch of QFG nerds and would love to have you!
+Feel free to create an issue here, or hop onto the [QFG Speedrunners Discord](https://discord.gg/ybXNsKJd) and post your question there. We're all a bunch of QFG nerds and would love to have you!
