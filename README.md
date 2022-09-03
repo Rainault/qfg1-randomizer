@@ -5,6 +5,8 @@ Only the EGA version is currently supported. (Sorry, VGA fans!) Also, you must b
 
 If you have questions, find a bug, or just want to chat with a bunch of fellow QFG nerds, join the [QFG Speedrunners Discord](https://discord.gg/ybXNsKJd). We'd love to have you!
 
+And if you enjoy the randomizer and would like to buy me a metaphorical coffee to say thanks, you can do so [here](https://ko-fi.com/rainault).
+
 # Antivirus/Malware Note
 I've received reports that some antivirus/malware programs are reporting the randomizer application as a trojan. (I guess modding a game by dumping a bunch of extra files into a folder does look suspiciously like a trojan.) I am currently working on resolving this problem in a more permanent fashion, but you may need to tell your antivirus/malware program to allow the randomizer to run. Sorry for the inconvenience!
 
