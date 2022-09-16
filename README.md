@@ -10,6 +10,9 @@ And if you enjoy the randomizer and would like to buy me a metaphorical coffee t
 # Antivirus/Malware Note
 I've received reports that some antivirus/malware programs are reporting the randomizer application as a trojan. (I guess modding a game by dumping a bunch of extra files into a folder does look suspiciously like a trojan.) I am currently working on resolving this problem in a more permanent fashion, but you may need to tell your antivirus/malware program to allow the randomizer to run. Sorry for the inconvenience!
 
+# Visual C++ Redistributable
+If you get an error message that says "The application was unable to start correctly (0xc000007b)." when attempting to launch the randomizer, you are missing the Visual C++ Redistributable, which is required to run the randomizer. You can download and install it from [here](https://aka.ms/vs/17/release/vc_redist.x86.exe). I will be attempting to remove this dependency in the future.
+
 # Instructions
 Windows is the only supported OS at the moment.
 
