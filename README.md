@@ -3,7 +3,7 @@ This program will randomize the location of most items in Quest for Glory 1 EGA.
 
 Only the EGA version is currently supported. (Sorry, VGA fans!) Also, you must be running v1.2 of QFG1EGA. This is the version that you should have if you bought the game on Steam or GOG. Notably, this randomizer will not work on v1.0 (the one called "Hero's Quest").
 
-If you have questions, find a bug, or just want to chat with a bunch of fellow QFG nerds, join the [QFG Speedrunners Discord](https://discord.gg/ybXNsKJd). We'd love to have you!
+If you have questions, find a bug, or just want to chat with a bunch of fellow QFG nerds, join the [QFG Speedrunners Discord](https://discord.gg/QwhuWWH). We'd love to have you!
 
 And if you enjoy the randomizer and would like to buy me a metaphorical coffee to say thanks, you can do so [here](https://ko-fi.com/rainault).
 
