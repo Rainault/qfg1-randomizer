@@ -28,7 +28,7 @@ If you want to spoil yourself on where everything was randomized to, you can loo
 
 If you want to restore the game to its original state or generate a new seed, click "Clean". This will delete the patch files and the spoiler log. You can also do this manually yourself, if you'd prefer -- just delete all SCRIPT.* and TEXT.* files and the spoiler.txt file from the game folder.
 
-# All 60 randomized item locations
+# Up to 71 randomized item locations
 * Bird nest in front of Healer's Hut
 * Work at the stables
 * Henry's cave
