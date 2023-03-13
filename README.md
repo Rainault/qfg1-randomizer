@@ -30,36 +30,37 @@ If you want to restore the game to its original state or generate a new seed, cl
 
 # All 60 randomized item locations
 * Bird nest in front of Healer's Hut
+* Work at the stables
 * Henry's cave
 * Meeps (2x)
 * Mushroom ring (2x)
 * Spirea plants
 * Erana's Peace (2x)
-  * Erana's stone excluded for heroes without Magic
+  * Erana's stone is included only for heroes with Magic
 * Flying Falls
 * Lake Miller
-* Sam's reward
-* Abdulla's reward
-* Wolfgang's reward
-* Healer's reward
-* Fox's reward
-* Brauggi's reward
-* Dryad's reward
+* Give Sam a silver
+* Give Abdulla rations or veggies
+* Kill a monster of Wolfgang's choosing
+* Healer rewards (8x)
+* Free the fox
+* Give Brauggi apples
+* Give Dryad the seed
 * Visit Erasmus
 * Beat Erasmus at Mage's Maze
-  * Excluded for heroes without Magic
+  * Only for heroes with Magic
 * Graveyard
 * Old lady's house (5x)
-  * Excluded for heroes without Pick Locks
+  * Only for heroes with Pick Locks
 * Sheriff's house (5x)
-  * Excluded for heroes without Pick Locks
+  * Only for heroes with Pick Locks
 * Survive the Dragon's Breath
 * Beat the Chief at Dag-Nab-It with a bet of at least 25 Silver
-  * Excluded for heroes without Throwing or both Stealth and Pick Locks
+  * Only for heroes with Throwing, plus either Stealth or Pick Locks
 * Ogre chest
 * Kobold cave (3x)
 * Beat the Weapon Master
-  * Excluded for heroes without Parry
+  * Only for heroes with Parry
 * Baron's reward
 * Brutus's body
 * Garbage pile in Fred's lair
@@ -72,6 +73,6 @@ If you want to restore the game to its original state or generate a new seed, cl
 * Zara's magic shop (3x)
 * Dry goods store (4x)
 * Hilde's stall (2x)
-* Healer's shop (1x)
+* Healer's shop (1x, or 4x if Healer potions option is set)
 * Thieves' Guild (2x)
-  * Excluded for heroes without Stealth and Pick Locks
+  * Only for heroes with Stealth or Pick Locks
